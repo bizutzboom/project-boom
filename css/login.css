@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/v847-te-46.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Container{
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: 530px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(257, 257, 257, .7);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Main-Box{
+    padding: 50px;
+    width: 100%;
+}
+
+.Main-Box h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #006099;
+}
+
+.Input-Box{
+    position: relative;
+    height: 52px;
+    width: 100%;
+    border-bottom: 2px solid #BA0600;
+    margin: 32px 0;
+}
+
+.Input-Box label{
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #006099;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all ease .40s;
+}
+
+.Input-Box input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    color: #BA0600;
+    padding: 0 30px 0 6px;
+}
+
+.Input-Box .Icon{
+    position: absolute;
+    right: 9px;
+    font-size: 20px;
+    color: black;
+    line-height: 55px;
+}
+
+.Input-Box input:focus~label,
+.Input-Box input:valid~label{
+    top: -3px;
+}
+
+.Check{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: -10px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Check label input{
+    vertical-align: middle;
+    margin-right: 6px;
+    accent-color: #006099;
+}
+
+.Check a{
+    color: #BA0600;
+}
+
+.Check a:hover{
+    text-decoration: underline;
+}
+
+.Button{
+    width: 100%;
+    height: 45px;
+    background: #006099;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Button a{
+    color: #ffffff;
+}
+
+.Register{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 35px 0 10px;
+}
+
+.Register p a{
+    font-size: 15px;
+    font-weight: 600;
+    color: #006099;
+    margin-left: 5px;
+}
+
+.Register p a:hover{
+    text-decoration: underline;
+}
